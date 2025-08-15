@@ -1,0 +1,54 @@
+/* =========================
+   style.css — Long HTML Page
+   Author: Ahmed Ali Qureshi
+   ========================= */
+
+/* ----- CSS Reset & Base ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #6b7280;
+  --primary: #333333;
+  --primary-600: #444444;
+  --primary-700: #555555;
+  --accent: #0ea5e9;        /* optional accent for focus states */
+  --surface: #f4f4f4;
+  --radius: 10px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 8px 24px rgba(0,0,0,.08);
+  --container: 1200px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0b0c;
+    --text: #e7e7e7;
+    --muted: #a3a3a3;
+    --primary: #111214;
+    --primary-600: #1a1c1f;
+    --primary-700: #24272b;
+    --accent: #38bdf8;
+    --surface: #141518;
+    --shadow-md: 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}

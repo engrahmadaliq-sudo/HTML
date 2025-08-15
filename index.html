@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample Long HTML Page">
+    <title>Long HTML Page Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #555;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #777;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Long HTML Page</h1>
+        <p>A fully structured example with multiple sections</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>This is a hero section with a background image</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel orci 
+        nec lorem posuere varius. Suspendisse potenti. Vivamus feugiat, tortor ac 
+        elementum bibendum, neque mi suscipit turpis, a iaculis dolor magna vel purus.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>We create beautiful and functional websites for businesses of all sizes.</p>
+            </div>
+            <div class="card">
+                <h3>Mobile Apps</h3>
+                <p>From iOS to Android, we design mobile applications that users love.</p>
+            </div>
+            <div class="card">
+                <h3>SEO Optimization</h3>
+                <p>Improve your search engine rankings with our proven SEO strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div
